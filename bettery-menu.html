@@ -1,0 +1,328 @@
+<html class="scroll-smooth" lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Меню A-la-Carte | NUMA Bettery Organic</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&amp;family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;family=Inter:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,container-queries"></script>
+    <style type="text/tailwindcss">
+        :root { --primary: #D4AF37; --dark-green: #061A13; --emerald-deep: #042018; --accent-green: #0A2F22; --glass-bg: rgba(255, 255, 255, 0.03); --glass-border: rgba(212, 175, 55, 0.2); } @layer base { body { @apply font-sans bg-[var(--dark-green)] text-white;
+        } } @layer components { .glass-premium { background: var(--glass-bg); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border: 1px solid var(--glass-border); } .gold-gradient-text { background: linear-gradient(to right, #D4AF37,
+        #F7E7CE, #D4AF37); -webkit-background-clip: text; -webkit-text-fill-color: transparent; } .gold-button { @apply bg-gradient-to-r from-[#D4AF37] to-[#B8860B] text-[#061A13] font-bold transition-all duration-300 hover:shadow-[0_0_20px_rgba(212,175,55,0.4)]
+        active:scale-95; } .gold-border-card { border: 1px solid rgba(212, 175, 55, 0.15); background: linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0) 100%); transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); } .gold-border-card:hover
+        { border-color: #D4AF37; background: rgba(212, 175, 55, 0.05); } .filter-btn { @apply px-6 py-3 rounded-full border border-white/10 text-xs font-bold uppercase tracking-widest transition-all hover:border-gold/50; } .filter-btn.active { @apply
+        border-gold bg-gold text-dark-green; } .no-scrollbar::-webkit-scrollbar { display: none; } .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; } }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gold: "#D4AF37",
+                        "dark-green": "#061A13",
+                        "emerald-deep": "#042018",
+                    },
+                    fontFamily: {
+                        sans: ["Montserrat", "Inter", "sans-serif"],
+                        serif: ["Playfair Display", "serif"],
+                    },
+                    borderRadius: {
+                        '4xl': '2.5rem',
+                    }
+                },
+            },
+        };
+    </script>
+</head>
+
+<body class="selection:bg-gold selection:text-dark-green">
+    <nav class="fixed top-0 w-full z-50 px-6 py-6">
+        <div class="max-w-7xl mx-auto glass-premium rounded-full px-8 py-4 flex items-center justify-between shadow-2xl">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-gold rounded-lg flex items-center justify-center text-dark-green font-extrabold text-xl">B</div>
+                <div class="flex flex-col leading-none">
+                    <span class="text-xl font-extrabold tracking-tighter gold-gradient-text uppercase">BETTERY</span>
+                    <span class="text-[10px] font-bold tracking-[0.2em] text-gold/60 uppercase">Organic Restaurant</span>
+                </div>
+            </div>
+            <div class="hidden md:flex items-center gap-10 text-xs font-bold uppercase tracking-widest text-white/70">
+                <a class="hover:text-gold transition-colors" href="#">Рационы</a>
+                <a class="text-gold transition-colors" href="#">Меню A-la-Carte</a>
+                <a class="hover:text-gold transition-colors" href="#">О качестве</a>
+                <a class="hover:text-gold transition-colors" href="#">Консультация</a>
+            </div>
+            <div class="flex items-center gap-4">
+                <button class="relative p-2 text-white/80 hover:text-gold transition-colors">
+<span class="material-symbols-outlined text-[24px]">shopping_bag</span>
+<span class="absolute top-1 right-1 w-4 h-4 bg-gold text-dark-green text-[10px] font-bold flex items-center justify-center rounded-full">0</span>
+</button>
+                <a class="gold-button px-6 py-2.5 rounded-full text-sm uppercase tracking-wider" href="#">
+                Заказать
+            </a>
+            </div>
+        </div>
+    </nav>
+    <section class="relative h-screen flex items-center justify-center overflow-hidden">
+        <img alt="Exquisite high cuisine" class="absolute inset-0 w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbxLCRgxEVWW7OTLALY5ROJKd5ZWPt65z8PHEMsfOPx3WDNYa2icbs_lwuSB6W_BVH3fDh7a9rwtp5Kmxw79cgThkLvy_tSDplMr19wpW_YfjBXrBdAKe01yQTQRnOVCdB3gr2xHBFng9cW5_BUDPC4cNvoodSam1QasIbvntWAPaXAEeaOlSJSCCNWELp7QciJ70Uzk1hM4M_A9QkzrEiTK5OGjzyXP-oDNVaHkbqh5Fr7-6SLv95KC-jxojRcRgXKwD0so_5HDil"
+        />
+        <div class="absolute inset-0 bg-gradient-to-b from-dark-green/40 via-dark-green/60 to-dark-green"></div>
+        <div class="relative z-10 text-center max-w-4xl px-6">
+            <span class="inline-block text-gold font-bold tracking-[0.4em] text-xs uppercase mb-6">Numa Bettery Organic</span>
+            <h1 class="text-5xl md:text-7xl font-serif text-white italic mb-8">Меню A-la-Carte</h1>
+            <p class="text-xl md:text-2xl text-white/80 font-light tracking-wide">
+                Нутрицевтические формулы, воплощенные в высокой кухне
+            </p>
+        </div>
+    </section>
+    <section class="sticky top-[88px] z-40 py-8 bg-dark-green/80 backdrop-blur-xl border-y border-white/5">
+        <div class="max-w-7xl mx-auto px-6 overflow-x-auto no-scrollbar">
+            <div class="flex items-center justify-center gap-4 min-w-max">
+                <button class="filter-btn active">Все</button>
+                <button class="filter-btn">Завтраки</button>
+                <button class="filter-btn">Салаты и стартеры</button>
+                <button class="filter-btn">Супы</button>
+                <button class="filter-btn">Основные блюда</button>
+                <button class="filter-btn">Десерты без сахара</button>
+                <button class="filter-btn">Био-напитки</button>
+            </div>
+        </div>
+    </section>
+    <section class="py-24 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-16">
+                <a href="bettery-detail.html" class="gold-border-card rounded-4xl overflow-hidden flex flex-col group">
+                    <div class="relative h-80 overflow-hidden">
+                        <img alt="Healthy bowl" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbxLCRgxEVWW7OTLALY5ROJKd5ZWPt65z8PHEMsfOPx3WDNYa2icbs_lwuSB6W_BVH3fDh7a9rwtp5Kmxw79cgThkLvy_tSDplMr19wpW_YfjBXrBdAKe01yQTQRnOVCdB3gr2xHBFng9cW5_BUDPC4cNvoodSam1QasIbvntWAPaXAEeaOlSJSCCNWELp7QciJ70Uzk1hM4M_A9QkzrEiTK5OGjzyXP-oDNVaHkbqh5Fr7-6SLv95KC-jxojRcRgXKwD0so_5HDil"
+                        />
+                        <div class="absolute top-6 left-6 flex flex-col gap-2">
+                            <span class="bg-dark-green/80 backdrop-blur px-3 py-1 rounded-full text-[10px] font-bold text-gold border border-gold/20 uppercase tracking-widest">Anti-Age</span>
+                        </div>
+                    </div>
+                    <div class="p-8 flex flex-col flex-grow">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-2xl font-bold font-serif italic">Брокколи-боул с кешью</h3>
+                            <div class="text-right">
+                                <span class="text-[10px] text-white/40 uppercase tracking-widest block">Калорийность</span>
+                                <span class="text-sm font-bold text-gold">320 ккал</span>
+                            </div>
+                        </div>
+                        <p class="text-sm text-white/50 leading-relaxed font-light mb-6">
+                            Богат сульфорафаном. Способствует детоксикации печени и повышению клеточного иммунитета. Идеально для сияния кожи.
+                        </p>
+                        <div class="grid grid-cols-3 gap-4 p-4 rounded-2xl bg-white/5 mb-8 border border-white/5">
+                            <div class="text-center">
+                                <span class="text-[10px] text-gold/60 uppercase block">Белки</span>
+                                <span class="text-sm font-bold">12г</span>
+                            </div>
+                            <div class="text-center border-x border-white/10">
+                                <span class="text-[10px] text-gold/60 uppercase block">Жиры</span>
+                                <span class="text-sm font-bold">18г</span>
+                            </div>
+                            <div class="text-center">
+                                <span class="text-[10px] text-gold/60 uppercase block">Угл.</span>
+                                <span class="text-sm font-bold">24г</span>
+                            </div>
+                        </div>
+                        <div class="mt-auto flex items-center justify-between">
+                            <span class="text-2xl font-black">65 000 <span class="text-xs font-bold uppercase text-gold">UZS</span></span>
+                            <button class="w-14 h-14 bg-gold text-dark-green rounded-full flex items-center justify-center hover:scale-105 transition-all shadow-lg">
+<span class="material-symbols-outlined font-bold">add</span>
+</button>
+                        </div>
+                    </div>
+                </a>
+                <div class="gold-border-card rounded-4xl overflow-hidden flex flex-col group">
+                    <div class="relative h-80 overflow-hidden">
+                        <img alt="Brain boost bowl" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC0Fpakkf-RRnWhUrzccwcB-8oZOU2C2Y91Wv9Jb1Oatbv6KJnSHUcIwZunS4YKtz-IbTs5tlkX0cj0jhvLHEJuBVCzMyrKmLaOUpN7c2ZOSAbS1eapF0Q30nV6Uych5SEsXwcT0jByJ460cEsuAsgwobC7Cj01CZbOCdIPI_7DLeYYTuYb_5EWtN38ydZGZPaYP4LVYI-pRSSTjb3rbACZ-uJ0COup_wMOjBcJoI6m4TX5k3K6WGTCbYr3d6Es0H3xWg51KS3ac2uh"
+                        />
+                        <div class="absolute top-6 left-6">
+                            <span class="bg-dark-green/80 backdrop-blur px-3 py-1 rounded-full text-[10px] font-bold text-gold border border-gold/20 uppercase tracking-widest">Brain Power</span>
+                        </div>
+                    </div>
+                    <div class="p-8 flex flex-col flex-grow">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-2xl font-bold font-serif italic">Смузи-боул "Blue Majik"</h3>
+                            <div class="text-right">
+                                <span class="text-[10px] text-white/40 uppercase tracking-widest block">Калорийность</span>
+                                <span class="text-sm font-bold text-gold">280 ккал</span>
+                            </div>
+                        </div>
+                        <p class="text-sm text-white/50 leading-relaxed font-light mb-6">
+                            На основе органической спирулины и кокосового молока. Мощный когнитивный бустер, богатый антиоксидантами.
+                        </p>
+                        <div class="grid grid-cols-3 gap-4 p-4 rounded-2xl bg-white/5 mb-8 border border-white/5">
+                            <div class="text-center">
+                                <span class="text-[10px] text-gold/60 uppercase block">Белки</span>
+                                <span class="text-sm font-bold">8г</span>
+                            </div>
+                            <div class="text-center border-x border-white/10">
+                                <span class="text-[10px] text-gold/60 uppercase block">Жиры</span>
+                                <span class="text-sm font-bold">12г</span>
+                            </div>
+                            <div class="text-center">
+                                <span class="text-[10px] text-gold/60 uppercase block">Угл.</span>
+                                <span class="text-sm font-bold">32г</span>
+                            </div>
+                        </div>
+                        <div class="mt-auto flex items-center justify-between">
+                            <span class="text-2xl font-black">55 000 <span class="text-xs font-bold uppercase text-gold">UZS</span></span>
+                            <button class="w-14 h-14 bg-gold text-dark-green rounded-full flex items-center justify-center hover:scale-105 transition-all shadow-lg">
+<span class="material-symbols-outlined font-bold">add</span>
+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="gold-border-card rounded-4xl overflow-hidden flex flex-col group">
+                    <div class="relative h-80 overflow-hidden">
+                        <img alt="Protein dish" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbxLCRgxEVWW7OTLALY5ROJKd5ZWPt65z8PHEMsfOPx3WDNYa2icbs_lwuSB6W_BVH3fDh7a9rwtp5Kmxw79cgThkLvy_tSDplMr19wpW_YfjBXrBdAKe01yQTQRnOVCdB3gr2xHBFng9cW5_BUDPC4cNvoodSam1QasIbvntWAPaXAEeaOlSJSCCNWELp7QciJ70Uzk1hM4M_A9QkzrEiTK5OGjzyXP-oDNVaHkbqh5Fr7-6SLv95KC-jxojRcRgXKwD0so_5HDil"
+                        />
+                        <div class="absolute top-6 left-6">
+                            <span class="bg-dark-green/80 backdrop-blur px-3 py-1 rounded-full text-[10px] font-bold text-gold border border-gold/20 uppercase tracking-widest">Muscle Recovery</span>
+                        </div>
+                    </div>
+                    <div class="p-8 flex flex-col flex-grow">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-2xl font-bold font-serif italic">Стейк из тунца</h3>
+                            <div class="text-right">
+                                <span class="text-[10px] text-white/40 uppercase tracking-widest block">Калорийность</span>
+                                <span class="text-sm font-bold text-gold">450 ккал</span>
+                            </div>
+                        </div>
+                        <p class="text-sm text-white/50 leading-relaxed font-light mb-6">
+                            Тщательно сбалансированные Омега-3 жирные кислоты. Ускоряет восстановление и поддерживает здоровье сосудов.
+                        </p>
+                        <div class="grid grid-cols-3 gap-4 p-4 rounded-2xl bg-white/5 mb-8 border border-white/5">
+                            <div class="text-center">
+                                <span class="text-[10px] text-gold/60 uppercase block">Белки</span>
+                                <span class="text-sm font-bold">34г</span>
+                            </div>
+                            <div class="text-center border-x border-white/10">
+                                <span class="text-[10px] text-gold/60 uppercase block">Жиры</span>
+                                <span class="text-sm font-bold">14г</span>
+                            </div>
+                            <div class="text-center">
+                                <span class="text-[10px] text-gold/60 uppercase block">Угл.</span>
+                                <span class="text-sm font-bold">10г</span>
+                            </div>
+                        </div>
+                        <div class="mt-auto flex items-center justify-between">
+                            <span class="text-2xl font-black">120 000 <span class="text-xs font-bold uppercase text-gold">UZS</span></span>
+                            <button class="w-14 h-14 bg-gold text-dark-green rounded-full flex items-center justify-center hover:scale-105 transition-all shadow-lg">
+<span class="material-symbols-outlined font-bold">add</span>
+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-16 text-center">
+                <button class="inline-flex items-center gap-3 px-10 py-5 rounded-xl border border-gold/30 text-gold font-bold hover:bg-gold/10 transition-all uppercase tracking-widest text-xs">
+<span class="material-symbols-outlined text-sm">picture_as_pdf</span>
+                Скачать полное меню в PDF
+            </button>
+            </div>
+        </div>
+    </section>
+    <section class="py-24 px-6 bg-emerald-deep/50 border-y border-white/5">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-16">
+            <div class="flex-1 space-y-8">
+                <div class="inline-flex items-center gap-3">
+                    <div class="w-16 h-16 bg-white/5 rounded-2xl flex items-center justify-center border border-white/10">
+                        <img alt="NUMA logo" class="w-10 h-10 rounded-lg" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCnN2eKb-0OArq7gdHepiTchIW8OH1mutW3CxpAnO8zQR3OxFRYciPtDjRRwwwwoxLjtUB5ZB8xuWE_EZUBlZtlk1jNJtVgJ11aqLAief9XPhSkB4E7m3xo7h-XFeBI94UEZ8qNj3mdY-mN3frrWmXZDUDDBCeOej1oIcAB9VZDkJgZ9calcuQ2S6bnloSn2TFwqZJieDM89vETA0iFDKVa7ADszXrP102PkH9JkZFLX1xU-kN_eNCd6SPxeHt7U00AXhqJfAM33_pD"
+                        />
+                    </div>
+                    <h2 class="text-3xl font-serif italic gold-gradient-text uppercase">Экспертный контроль NUMA</h2>
+                </div>
+                <p class="text-lg text-white/70 font-light leading-relaxed">
+                    Каждое блюдо в нашем меню проходит многоступенчатую верификацию. Команда профессиональных нутрициологов холдинга NUMA разрабатывает рецептуру с учетом биодоступности микроэлементов и гликемического индекса. Мы не просто готовим еду — мы создаем терапевтические
+                    протоколы питания.
+                </p>
+                <div class="grid grid-cols-2 gap-8">
+                    <div class="space-y-2">
+                        <span class="material-symbols-outlined text-gold">biotech</span>
+                        <h4 class="font-bold text-sm uppercase tracking-widest">Лабораторный тест</h4>
+                        <p class="text-xs text-white/40">Контроль нутриентного состава каждой порции</p>
+                    </div>
+                    <div class="space-y-2">
+                        <span class="material-symbols-outlined text-gold">fact_check</span>
+                        <h4 class="font-bold text-sm uppercase tracking-widest">Одобрено врачами</h4>
+                        <p class="text-xs text-white/40">Сбалансировано согласно стандартам холдинга</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-1 w-full h-[400px] rounded-4xl overflow-hidden border border-gold/20">
+                <img alt="Nutritionist at work" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCnN2eKb-0OArq7gdHepiTchIW8OH1mutW3CxpAnO8zQR3OxFRYciPtDjRRwwwwoxLjtUB5ZB8xuWE_EZUBlZtlk1jNJtVgJ11aqLAief9XPhSkB4E7m3xo7h-XFeBI94UEZ8qNj3mdY-mN3frrWmXZDUDDBCeOej1oIcAB9VZDkJgZ9calcuQ2S6bnloSn2TFwqZJieDM89vETA0iFDKVa7ADszXrP102PkH9JkZFLX1xU-kN_eNCd6SPxeHt7U00AXhqJfAM33_pD"
+                />
+            </div>
+        </div>
+    </section>
+    <footer class="bg-black/40 pt-24 pb-12 px-6 border-t border-white/5">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 pb-20 border-b border-white/5">
+                <div class="space-y-8">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-gold rounded-xl flex items-center justify-center text-dark-green font-extrabold text-xl">B</div>
+                        <span class="text-2xl font-extrabold tracking-tighter gold-gradient-text uppercase">BETTERY</span>
+                    </div>
+                    <p class="text-white/40 leading-relaxed text-sm font-light">
+                        Премиальный сервис здорового питания в экосистеме NUMA Holding. Мы создаем будущее, где еда является лекарством.
+                    </p>
+                    <div class="flex gap-6">
+                        <div class="flex items-center gap-2 opacity-40">
+                            <span class="material-symbols-outlined text-gold text-lg">verified</span>
+                            <span class="text-[10px] font-bold">HALAL</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-black text-[10px] uppercase tracking-[0.3em] mb-8 text-gold">Экосистема</h4>
+                    <ul class="space-y-4 text-sm font-medium text-white/50">
+                        <li><a class="hover:text-gold transition-colors" href="#">NUMA Diagnostics</a></li>
+                        <li><a class="hover:text-gold transition-colors" href="#">NUMA Nutrition</a></li>
+                        <li><a class="hover:text-gold transition-colors" href="#">NUMA Kids</a></li>
+                        <li><a class="hover:text-gold transition-colors" href="#">Nabaviy Tabobat</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-black text-[10px] uppercase tracking-[0.3em] mb-8 text-gold">Сервис</h4>
+                    <ul class="space-y-4 text-sm font-medium text-white/50">
+                        <li><a class="hover:text-gold transition-colors" href="#">Доставка и оплата</a></li>
+                        <li><a class="hover:text-gold transition-colors" href="#">Нутрициология</a></li>
+                        <li><a class="hover:text-gold transition-colors" href="#">Личный кабинет</a></li>
+                        <li><a class="hover:text-gold transition-colors" href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-black text-[10px] uppercase tracking-[0.3em] mb-8 text-gold">Рассылка</h4>
+                    <p class="text-xs text-white/40 mb-6 uppercase tracking-wider font-light">Гайды по биохакингу и секретные позиции меню.</p>
+                    <form class="relative">
+                        <input class="w-full bg-white/5 border border-white/10 rounded-full py-4 pl-6 pr-12 text-xs focus:ring-1 focus:ring-gold outline-none" placeholder="Email адрес" type="email" />
+                        <button class="absolute right-2 top-2 w-10 h-10 bg-gold text-dark-green rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+                    </form>
+                </div>
+            </div>
+            <div class="pt-12 flex flex-col md:flex-row justify-between items-center gap-8">
+                <p class="text-[10px] text-white/30 font-bold uppercase tracking-[0.2em]">© 2024 NUMA BETTERY ORGANIC. HEALTH &amp; LONGEVITY RESTAURANT.</p>
+                <div class="flex gap-8 text-[10px] font-bold uppercase tracking-widest text-white/50">
+                    <a class="hover:text-gold transition-colors" href="#">Instagram</a>
+                    <a class="hover:text-gold transition-colors" href="#">Telegram</a>
+                    <a class="hover:text-gold transition-colors" href="#">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="fixed bottom-8 right-8 z-50">
+        <button class="gold-button w-16 h-16 rounded-full flex items-center justify-center shadow-2xl group">
+<span class="material-symbols-outlined text-2xl group-hover:scale-110 transition-transform">shopping_cart</span>
+<span class="absolute -top-1 -right-1 w-6 h-6 bg-white text-dark-green text-[10px] font-black flex items-center justify-center rounded-full border-2 border-gold shadow-lg">3</span>
+</button>
+    </div>
+
+</body>
+
+</html>

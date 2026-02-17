@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>NUMA Kids | Забота о будущем с любовью</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&amp;family=Inter:wght@400;600&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,container-queries"></script>
+    <style type="text/tailwindcss">
+        :root { --primary: #FFD23F; --primary-dark: #F5BD02; --accent: #FF7E33; --soft-blue: #E0F2FE; --soft-green: #DCFCE7; --soft-pink: #FCE7F3; } @layer base { body { @apply font-['Nunito',sans-serif] bg-[#FFFDF5] text-slate-800; } } @layer components { .btn-primary
+        { @apply bg-[var(--accent)] hover:bg-[#E66A22] text-white px-8 py-4 rounded-full font-bold text-lg transition-all shadow-lg hover:shadow-orange-200 hover:-translate-y-0.5; } .product-card { @apply min-w-[300px] bg-white rounded-3xl p-6 shadow-xl
+        shadow-yellow-100/50 border border-yellow-50 transition-all hover:shadow-2xl; } .no-scrollbar::-webkit-scrollbar { display: none; } .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; } .blob { border-radius: 42% 58% 70% 30% / 45%
+        45% 55% 55%; } }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#FFD23F",
+                        accent: "#FF7E33",
+                        "soft-blue": "#E0F2FE",
+                        "soft-green": "#DCFCE7",
+                        "soft-pink": "#FCE7F3",
+                    },
+                    borderRadius: {
+                        '4xl': '2rem',
+                        '5xl': '3rem',
+                    }
+                },
+            },
+        };
+    </script>
+</head>
+
+<body class="selection:bg-primary selection:text-white">
+    <nav class="fixed top-0 w-full z-50 px-6 py-4">
+        <div class="max-w-7xl mx-auto bg-white/80 backdrop-blur-md rounded-full px-8 py-3 flex items-center justify-between shadow-sm border border-yellow-100">
+            <div class="flex items-center gap-2">
+                <div class="w-10 h-10 bg-primary rounded-xl flex items-center justify-center text-white font-black text-xl">K</div>
+                <div class="flex flex-col leading-none">
+                    <span class="text-xl font-black tracking-tight text-slate-900">NUMA <span class="text-accent">Kids</span></span>
+                    <span class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Premium Health</span>
+                </div>
+            </div>
+            <div class="hidden md:flex items-center gap-10 text-sm font-bold text-slate-600">
+                <a class="hover:text-accent transition-colors" href="#philosophy">Философия</a>
+                <a class="hover:text-accent transition-colors" href="#products">Продукты</a>
+                <a class="hover:text-accent transition-colors" href="#benefits">Преимущества</a>
+                <a class="hover:text-accent transition-colors" href="#callback">Контакты</a>
+            </div>
+            <div class="flex items-center gap-4">
+                <a class="bg-primary hover:bg-primary-dark text-slate-900 px-6 py-2 rounded-full text-sm font-extrabold transition-all shadow-md" href="#products">
+                В магазин
+            </a>
+            </div>
+        </div>
+    </nav>
+    <section class="relative min-h-screen flex items-center overflow-hidden pt-20">
+        <div class="absolute top-20 right-[-10%] w-[600px] h-[600px] bg-primary/20 blob blur-3xl -z-10"></div>
+        <div class="absolute bottom-10 left-[-5%] w-[400px] h-[400px] bg-soft-blue/40 blob blur-3xl -z-10"></div>
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 items-center gap-16">
+            <div class="space-y-8">
+                <div class="inline-flex items-center gap-2 py-2 px-5 rounded-full bg-white shadow-sm border border-yellow-100 text-accent text-sm font-black uppercase tracking-wider">
+                    <span class="material-symbols-outlined text-sm">favorite</span> С заботой о маленьких героях
+                </div>
+                <h1 class="text-6xl md:text-7xl font-black text-slate-900 leading-[1.1]">
+                    Забота о <br/>будущем <br/><span class="text-accent">с любовью.</span>
+                </h1>
+                <p class="text-xl text-slate-500 max-w-lg leading-relaxed font-medium">
+                    Научно-обоснованные витамины и нутрицевтики, созданные специально для активного роста и крепкого иммунитета вашего ребенка.
+                </p>
+                <div class="flex flex-col sm:flex-row items-center gap-6 pt-4">
+                    <a class="btn-primary w-full sm:w-auto flex items-center justify-center gap-3" href="#products">
+                    Купить сейчас
+                    <span class="material-symbols-outlined">shopping_bag</span>
+</a>
+                    <div class="flex items-center gap-4">
+                        <div class="flex -space-x-3">
+                            <div class="w-10 h-10 rounded-full border-2 border-white bg-slate-200 overflow-hidden">
+                                <img alt="User" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSY3E16TKocN379WyBxSzj1F7SjzIcLTHJBxh-C5PRj3XmPXEilMlfZbpZ3cHhnX85YGPZhFmIssBdpgiGd_v501L8zzy49Pex65v7GO8hJXBt_f0uYozk_nhSCCZGil3cT5UXLitrxQE3TcpLiVOcsj-Ne_FtuHsLKp0M3awIbQVT3EZHQqI-Ei7HGi_xUKpku_jffaEDVSACiPpsPS9CYTimftn8lVp3c9AwNoi_paTRE0SNbWkVbFj0GXtTfrrhM4Mj40a4L7cx"
+                                />
+                            </div>
+                            <div class="w-10 h-10 rounded-full border-2 border-white bg-slate-200 overflow-hidden">
+                                <img alt="User" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDOeT6Is7lCavi8JhDex6sbD_7p3LHgW45I_U4N6NCa5-16Ksh7SXSyVXA-1xy1_ubzI2Gtp4Ha6yN5A0h8PV5TLGHF940HEq2mSpkOU2snDGGq8VJZ5xRuMlJX4va-MV_5hzj7ure49RoXQEHsiKjjziaAo5NDZv_cZ4MrjTW3Yv02Xlo-UHQBTN4lQVGhyenoTsqbFWYng_v1HUb7DYO6JyBVVxkRSJEMOBxSnQ38nIRArQxtUw3FXINMuww7prCIQezPB4o4qIjg"
+                                />
+                            </div>
+                            <div class="w-10 h-10 rounded-full border-2 border-white bg-slate-200 overflow-hidden">
+                                <img alt="User" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAIxjLWpKjA7FRIpw75p-5wborIUvzsdiJ21bvPipxJC2i8Z-zOTAqdsx_xkuiRWV5cFLVEFppmPIIyBpJRI_xdC3VLtilsEIUV7cEBeaZRssoH-cjSdyQiN4Kv_ZmqcAmuPrpC4xsBqv_paiWLA-0wlxWIhIYVqPnx6Y-QGWsjjzAycy8ZQnfQFQFftIB97Gl_odd7sznvyZMMU919MFQmCjRyY34khNDggidh_cXRgg_l-JxaOiAUhJyVq1z02Mx6A_P4LMKcVUEJ"
+                                />
+                            </div>
+                        </div>
+                        <p class="text-sm font-bold text-slate-600">15,000+ счастливых мам</p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="relative z-10 w-full aspect-square bg-white/40 backdrop-blur-sm rounded-[60px] border border-white flex items-center justify-center overflow-hidden shadow-2xl">
+                    <img alt="NUMA Kids product illustration" class="w-4/5 h-4/5 object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbIHKdxRivCGdoFYzdjZTdJrEntAqaRDDJbUZs1RrftHEkKzW5bZEZB2jCQUBXPsWH_tEUOqvwhgUe5MN_UXOd8sHrlkwVszstvI9ywiBrwk45ha8h7VFLDGEbRu14rAgmMBi5NCWge8hkV_PZxRkCKEb-gm9JAr6Z4HDtszgEBFQCy1Bw1ePixD_PrYBd4RFX05_oRWVsvh4sJoMvBTgQSlhTKATIltTlYm3h4CvNobKAPEUwbrDxleCJVcWFEqDwJ7yDF_57zg9A"
+                    />
+                    <div class="absolute top-10 right-10 w-20 h-20 bg-primary/40 rounded-full blur-xl animate-pulse"></div>
+                    <div class="absolute bottom-20 left-10 w-32 h-32 bg-soft-green/60 rounded-full blur-2xl animate-pulse"></div>
+                </div>
+                <div class="absolute -top-10 -right-10 text-primary opacity-40">
+                    <span class="material-symbols-outlined text-[120px]">sunny</span>
+                </div>
+                <div class="absolute -bottom-10 -left-10 text-soft-green">
+                    <span class="material-symbols-outlined text-[100px]">eco</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-24 bg-white" id="philosophy">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="bg-gradient-to-br from-yellow-50 to-orange-50 rounded-[50px] p-12 md:p-20 text-center relative overflow-hidden border border-yellow-100">
+                <div class="relative z-10 max-w-4xl mx-auto space-y-8">
+                    <span class="text-sm font-black text-accent uppercase tracking-[0.3em]">Наследие и наука</span>
+                    <h2 class="text-4xl md:text-5xl font-black text-slate-900 leading-tight">
+                        От создателей NUMA: Научный подход к детскому здоровью
+                    </h2>
+                    <p class="text-lg text-slate-600 leading-relaxed font-medium">
+                        Мы объединили экспертизу холдинга NUMA в области превентивной медицины и нутрициологии, чтобы создать продукты, которые дети любят, а родители доверяют. Каждый ингредиент проходит многоступенчатый контроль качества.
+                    </p>
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 pt-8">
+                        <div class="space-y-2">
+                            <div class="text-4xl font-black text-primary">0%</div>
+                            <p class="text-sm font-bold text-slate-500">Сахара и ГМО</p>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="text-4xl font-black text-primary">100%</div>
+                            <p class="text-sm font-bold text-slate-500">Натурально</p>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="text-4xl font-black text-primary">Lab</div>
+                            <p class="text-sm font-bold text-slate-500">Протестировано</p>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="text-4xl font-black text-primary">EU</div>
+                            <p class="text-sm font-bold text-slate-500">Стандарты</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-24 overflow-hidden" id="products">
+        <div class="max-w-7xl mx-auto px-6 mb-12 flex flex-col md:flex-row justify-between items-end gap-6">
+            <div class="max-w-xl">
+                <h2 class="text-4xl font-black text-slate-900 mb-4">Бестселлеры для роста</h2>
+                <p class="text-slate-500 font-medium">Выбор тысяч мам для ежедневной поддержки здоровья малышей.</p>
+            </div>
+            <div class="flex gap-4">
+                <button class="w-12 h-12 rounded-full bg-white border border-yellow-100 flex items-center justify-center text-slate-400 hover:text-accent hover:border-accent transition-all">
+<span class="material-symbols-outlined">chevron_left</span>
+</button>
+                <button class="w-12 h-12 rounded-full bg-white border border-yellow-100 flex items-center justify-center text-slate-400 hover:text-accent hover:border-accent transition-all">
+<span class="material-symbols-outlined">chevron_right</span>
+</button>
+            </div>
+        </div>
+        <a href="numa-kids-detail.html" class="flex gap-8 overflow-x-auto px-6 md:px-[calc((100vw-1280px)/2)] no-scrollbar pb-12">
+            <div class="product-card group">
+                <div class="bg-soft-blue rounded-2xl h-60 mb-6 flex items-center justify-center relative overflow-hidden">
+                    <span class="material-symbols-outlined text-6xl text-blue-300">medication</span>
+                    <span class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-[10px] font-black uppercase text-blue-500">Иммунитет</span>
+                </div>
+                <h4 class="text-xl font-black text-slate-900 mb-2">Мультивитамины Kids</h4>
+                <p class="text-sm text-slate-500 mb-6 font-medium">Полный комплекс минералов для активного роста.</p>
+                <div class="flex items-center justify-between">
+                    <span class="text-2xl font-black text-slate-900">185,000 <span class="text-sm font-normal text-slate-400">UZS</span></span>
+                    <button class="w-12 h-12 bg-primary rounded-2xl flex items-center justify-center text-slate-900 hover:bg-accent hover:text-white transition-all group-hover:scale-110">
+<span class="material-symbols-outlined">add</span>
+</button>
+                </div>
+            </div>
+            <div class="product-card group">
+                <div class="bg-soft-pink rounded-2xl h-60 mb-6 flex items-center justify-center relative overflow-hidden">
+                    <span class="material-symbols-outlined text-6xl text-pink-300">favorite</span>
+                    <span class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-[10px] font-black uppercase text-pink-500">Омега-3</span>
+                </div>
+                <h4 class="text-xl font-black text-slate-900 mb-2">Умная Омега Kids</h4>
+                <p class="text-sm text-slate-500 mb-6 font-medium">Для концентрации внимания и развития мозга.</p>
+                <div class="flex items-center justify-between">
+                    <span class="text-2xl font-black text-slate-900">220,000 <span class="text-sm font-normal text-slate-400">UZS</span></span>
+                    <button class="w-12 h-12 bg-primary rounded-2xl flex items-center justify-center text-slate-900 hover:bg-accent hover:text-white transition-all group-hover:scale-110">
+<span class="material-symbols-outlined">add</span>
+</button>
+                </div>
+            </div>
+            <div class="product-card group">
+                <div class="bg-soft-green rounded-2xl h-60 mb-6 flex items-center justify-center relative overflow-hidden">
+                    <span class="material-symbols-outlined text-6xl text-emerald-300">wb_sunny</span>
+                    <span class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-[10px] font-black uppercase text-emerald-600">Витамин D3</span>
+                </div>
+                <h4 class="text-xl font-black text-slate-900 mb-2">Солнечный D3 Drops</h4>
+                <p class="text-sm text-slate-500 mb-6 font-medium">Крепкие кости и здоровые зубы с рождения.</p>
+                <div class="flex items-center justify-between">
+                    <span class="text-2xl font-black text-slate-900">145,000 <span class="text-sm font-normal text-slate-400">UZS</span></span>
+                    <button class="w-12 h-12 bg-primary rounded-2xl flex items-center justify-center text-slate-900 hover:bg-accent hover:text-white transition-all group-hover:scale-110">
+<span class="material-symbols-outlined">add</span>
+</button>
+                </div>
+            </div>
+            <div class="product-card group">
+                <div class="bg-orange-50 rounded-2xl h-60 mb-6 flex items-center justify-center relative overflow-hidden">
+                    <span class="material-symbols-outlined text-6xl text-orange-200">shield</span>
+                    <span class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-[10px] font-black uppercase text-orange-500">Пробиотики</span>
+                </div>
+                <h4 class="text-xl font-black text-slate-900 mb-2">Счастливый Животик</h4>
+                <p class="text-sm text-slate-500 mb-6 font-medium">Здоровое пищеварение и комфорт каждый день.</p>
+                <div class="flex items-center justify-between">
+                    <span class="text-2xl font-black text-slate-900">195,000 <span class="text-sm font-normal text-slate-400">UZS</span></span>
+                    <button class="w-12 h-12 bg-primary rounded-2xl flex items-center justify-center text-slate-900 hover:bg-accent hover:text-white transition-all group-hover:scale-110">
+<span class="material-symbols-outlined">add</span>
+</button>
+                </div>
+            </div>
+        </a>
+    </section>
+    <section class="py-24 bg-[#FFF9E6]" id="benefits">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
+                <div class="text-center space-y-4">
+                    <div class="w-20 h-20 bg-white rounded-3xl flex items-center justify-center text-primary mx-auto shadow-sm">
+                        <span class="material-symbols-outlined text-4xl">eco</span>
+                    </div>
+                    <h3 class="text-lg font-black text-slate-900">100% Organic</h3>
+                    <p class="text-sm text-slate-500 font-medium">Только натуральные экстракты и компоненты.</p>
+                </div>
+                <div class="text-center space-y-4">
+                    <div class="w-20 h-20 bg-white rounded-3xl flex items-center justify-center text-emerald-500 mx-auto shadow-sm">
+                        <span class="material-symbols-outlined text-4xl">verified</span>
+                    </div>
+                    <h3 class="text-lg font-black text-slate-900">Halal Certified</h3>
+                    <p class="text-sm text-slate-500 font-medium">Соответствие строгим стандартам качества Халяль.</p>
+                </div>
+                <div class="text-center space-y-4">
+                    <div class="w-20 h-20 bg-white rounded-3xl flex items-center justify-center text-blue-500 mx-auto shadow-sm">
+                        <span class="material-symbols-outlined text-4xl">stethoscope</span>
+                    </div>
+                    <h3 class="text-lg font-black text-slate-900">Doctor Approved</h3>
+                    <p class="text-sm text-slate-500 font-medium">Рекомендовано ведущими педиатрами.</p>
+                </div>
+                <div class="text-center space-y-4">
+                    <div class="w-20 h-20 bg-white rounded-3xl flex items-center justify-center text-pink-500 mx-auto shadow-sm">
+                        <span class="material-symbols-outlined text-4xl">sentiment_satisfied</span>
+                    </div>
+                    <h3 class="text-lg font-black text-slate-900">Great Taste</h3>
+                    <p class="text-sm text-slate-500 font-medium">Вкусные форматы, которые понравятся любому ребенку.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-24 px-6" id="callback">
+        <div class="max-w-5xl mx-auto bg-accent rounded-[60px] p-12 md:p-16 relative overflow-hidden">
+            <div class="absolute top-[-20%] right-[-10%] w-[300px] h-[300px] bg-white/10 rounded-full blur-3xl"></div>
+            <div class="absolute bottom-[-10%] left-[-5%] w-[200px] h-[200px] bg-primary/20 rounded-full blur-2xl"></div>
+            <div class="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="text-white space-y-6">
+                    <h2 class="text-4xl md:text-5xl font-black leading-tight">Нужна помощь с выбором?</h2>
+                    <p class="text-white/80 text-lg font-medium">Оставьте заявку, и наш специалист поможет подобрать оптимальный набор витаминов для вашего ребенка.</p>
+                    <div class="flex items-center gap-4 text-white/90 font-bold">
+                        <span class="material-symbols-outlined p-2 bg-white/20 rounded-full">support_agent</span> Консультация бесплатна
+                    </div>
+                </div>
+                <form class="bg-white/10 backdrop-blur-md p-8 rounded-[40px] space-y-4 border border-white/20">
+                    <input class="w-full bg-white rounded-2xl py-4 px-6 border-none focus:ring-4 focus:ring-primary/50 text-slate-900 placeholder:text-slate-400 font-bold" placeholder="Ваше имя" type="text" />
+                    <input class="w-full bg-white rounded-2xl py-4 px-6 border-none focus:ring-4 focus:ring-primary/50 text-slate-900 placeholder:text-slate-400 font-bold" placeholder="Номер телефона" type="tel" />
+                    <button class="w-full bg-white text-accent py-5 rounded-2xl font-black text-lg hover:bg-primary hover:text-slate-900 transition-all shadow-xl">
+                    Заказать звонок
+                </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-white pt-24 pb-12 px-6 border-t border-yellow-50">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 pb-20 border-b border-yellow-100">
+                <div class="space-y-6">
+                    <div class="flex items-center gap-2">
+                        <div class="w-10 h-10 bg-primary rounded-xl flex items-center justify-center text-white font-black text-xl">K</div>
+                        <span class="text-2xl font-black tracking-tight">NUMA <span class="text-accent">Kids</span></span>
+                    </div>
+                    <p class="text-slate-500 font-medium leading-relaxed">
+                        Специализированная линейка здоровья от холдинга NUMA. Мы создаем будущее, инвестируя в здоровье детей сегодня.
+                    </p>
+                    <div class="flex gap-4">
+                        <a class="w-10 h-10 rounded-full bg-slate-50 flex items-center justify-center text-slate-400 hover:text-accent transition-colors border border-slate-100" href="#">
+                            <span class="material-symbols-outlined text-xl">brand_family</span>
+                        </a>
+                        <a class="w-10 h-10 rounded-full bg-slate-50 flex items-center justify-center text-slate-400 hover:text-accent transition-colors border border-slate-100" href="#">
+                            <span class="material-symbols-outlined text-xl">send</span>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-black text-xs uppercase tracking-[0.2em] mb-8 text-slate-400">Линейки</h4>
+                    <ul class="space-y-4 font-bold text-slate-600">
+                        <li><a class="hover:text-accent transition-colors" href="#">Иммунитет</a></li>
+                        <li><a class="hover:text-accent transition-colors" href="#">Рост и Кости</a></li>
+                        <li><a class="hover:text-accent transition-colors" href="#">Омега и Мозг</a></li>
+                        <li><a class="hover:text-accent transition-colors" href="#">Витамины D3</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-black text-xs uppercase tracking-[0.2em] mb-8 text-slate-400">Холдинг NUMA</h4>
+                    <ul class="space-y-4 font-bold text-slate-600">
+                        <li><a class="hover:text-accent transition-colors" href="#">NUMA Holding</a></li>
+                        <li><a class="hover:text-accent transition-colors" href="#">NUMA Diagnostics</a></li>
+                        <li><a class="hover:text-accent transition-colors" href="#">Bettery Organic</a></li>
+                        <li><a class="hover:text-accent transition-colors" href="#">Nabaviy Tabobat</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-black text-xs uppercase tracking-[0.2em] mb-8 text-slate-400">Подписка</h4>
+                    <p class="text-sm text-slate-500 mb-6 font-medium">Советы от педиатров и закрытые акции для мам.</p>
+                    <form class="relative">
+                        <input class="w-full bg-slate-50 border border-slate-100 rounded-full py-4 pl-6 pr-12 text-sm focus:ring-1 focus:ring-accent font-bold" placeholder="Ваш Email" type="email" />
+                        <button class="absolute right-2 top-2 w-10 h-10 bg-accent text-white rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+                    </form>
+                </div>
+            </div>
+            <div class="pt-12 flex flex-col md:flex-row justify-between items-center gap-8">
+                <p class="text-xs text-slate-400 font-bold">© 2024 NUMA Kids. Часть экосистемы NUMA Holding. Сделано с любовью.</p>
+                <div class="flex gap-8 text-xs font-black uppercase tracking-widest text-slate-400">
+                    <a class="hover:text-accent transition-colors" href="#">Оферта</a>
+                    <a class="hover:text-accent transition-colors" href="#">Доставка</a>
+                    <a class="hover:text-accent transition-colors" href="#">Политика</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
